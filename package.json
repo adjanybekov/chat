@@ -1,0 +1,27 @@
+{
+  "name": "chat",
+  "version": "0.0.0",
+  "description": "A chat application for IEEE METU Computer Society Web Developer Training 2016",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erkanarslan/ieee-chat.git"
+  },
+  "keywords": [
+    "chat",
+    "ieee",
+    "metu"
+  ],
+  "author": "Erkan Arslan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erkanarslan/ieee-chat/issues"
+  },
+  "homepage": "https://github.com/erkanarslan/ieee-chat#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

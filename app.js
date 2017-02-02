@@ -10,6 +10,16 @@ var databaseURI = "mongodb://" + database.user + ":" + database.password + "@" +
 console.log(databaseURI);
 mongoose.connect(databaseURI);
 
+var Schema = mongoose.Schema;
+
+var messageSchema = new Schema({
+  _id: String,
+  user: String, 
+  content: String,
+  date: { type: Date, default: Date.now }
+});
+
+
 app.use(express.static('public'));
 
 app.get('/', function(req, res){

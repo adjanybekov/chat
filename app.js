@@ -12,7 +12,7 @@ mongoose.connect(databaseURI);
 
 var Schema = mongoose.Schema;
 
-var messageSchema = new Schema({
+var messageSchema = new Schema({ 
   _id: String,
   user: String, 
   content: String,
